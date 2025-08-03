@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import CreatePost from "./CreatePost";
 import { Plus } from "lucide-react";
+import axios from "axios";
 import Tweet from "./Tweet";
 import { UserContext } from "../context/UserContext";
 import { TweetContext } from "../context/TweetContext";

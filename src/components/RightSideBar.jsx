@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { UserContext } from "../context/UserContext";
 import SearchBar from "../components/SearchBar";
 
+
 const RightSideBar = () => {
   const navigate = useNavigate();
   const { otherUsers } = useContext(UserContext);

@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import SearchBar from "./SearchBar";
 import { IoArrowBack } from "react-icons/io5";
 
+
 const MobileSearch = () => {
   const navigate = useNavigate();
 
