@@ -4,6 +4,8 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { USER_API_END_POINT } from "../utils/constant";
 import logoblack from "../assets/logo-black.png";
+import { TWEET_API_END_POINT } from "../utils/constant";
+
 
 const Register = () => {
   const [name, setName] = useState("");
